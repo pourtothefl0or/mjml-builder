@@ -1,0 +1,36 @@
+<mjml>
+  <mj-head>
+    <mj-title>MJML-BUILDER</mj-title>
+    <mj-preview>MJML-BUILDER</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Roboto" />
+      <mj-class name="body" width="600px" background-color="#fff" />
+      <mj-class name="section" padding="0 16px" />
+      <mj-class name="image" padding="0" />
+      <mj-class name="text" padding="0" font-weight="400" font-size="24px" line-height="20px" color="#000" />
+    </mj-attributes>
+    <mj-style>
+      @font-face {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+        src:
+        url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-Regular.woff') format('woff');
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body mj-class="body">
+    <mj-section mj-class="section" padding-top="30px" padding-bottom="30px">
+      <mj-column>
+        <mj-text mj-class="text" align="center">MJML-BUILDER</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

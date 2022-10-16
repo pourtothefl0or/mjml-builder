@@ -1,0 +1,18 @@
+{
+  "name": "mjml-builder",
+  "version": "1.0.0",
+  "description": "https://mjml.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e mjml node_modules/.bin/mjml -r \"src/*.mjml\" --config.minify true -o dist/",
+    "build": "mjml -r \"src/**/*.mjml\" --config.minify true -o dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mjml": "^4.13.0",
+    "nodemon": "^2.0.20"
+  }
+}
